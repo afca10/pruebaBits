@@ -1,3 +1,12 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+   path: /
+   controller: App\Controller\DefaultController::index
+artista:
+   path: /artista/{id}
+   controller: App\Controller\DefaultController::artista
+lanzamientos:
+   path: /lanzamientos
+   controller: App\Controller\DefaultController::lanzamientos
+home:
+   path: /home
+   controller: App\Controller\DefaultController::home
